@@ -1,0 +1,40 @@
+{
+    "name": "x/x",
+    "description": "test plugin craft3",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "x"
+    ],
+    "support": {
+        "docs": "https://github.com/stefanfriedrich/x/blob/master/README.md",
+        "issues": "https://github.com/stefanfriedrich/x/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stefan Friedrich",
+            "homepage": "https://github.com/stefanfriedrich"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "x\\x\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "x",
+        "handle": "x",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/stefanfriedrich/x/master/CHANGELOG.md",
+        "class": "x\\x\\X"
+    }
+}
