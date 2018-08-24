@@ -40,4 +40,4 @@ Some things to do, and ideas for potential features:
 
 * Release it
 
-Brought to you by [Stefan Friedrich](https://github.com/stefanfriedrich).
+Brought to you by [Stefan Friedrich](https://github.com/stefanfriedrich)
